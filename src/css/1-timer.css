@@ -12,19 +12,24 @@
 
 button[data-start] {
   border-radius: 8px;
-  background: rgb(207, 207, 207);
+  background: #4e75ff;
   width: 75px;
   height: 40px;
   border: 1px solid transparent;
   outline: none;
   text-align: center;
-  color: rgb(152, 152, 152);
+  color: #fff;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
   margin-bottom: 32px;
+}
+
+button[disabled] {
+  background: rgb(207, 207, 207);
+  color: rgb(152, 152, 152);
 }
 
 .timer {
